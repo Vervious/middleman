@@ -2,7 +2,7 @@
 a trusted machine that does things for you and other people
 
 # how it works
-for something to be added to the ledger (the list of machine code changes),
+for something to be added to the ledger (the list of machine code/processes that were run/started),
 everyone must have signed off on it happening (global concensus).
 
 # determinism
