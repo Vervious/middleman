@@ -16,8 +16,10 @@ right now, every minute, the machine executes the set of "currently running code
 
 # possible ledger actions
 
+```
   ADD(charge_spotify_monthly(args))  -> returns an PROCESS_ID
   REMOVE(PROCESS_ID)
   ADD_RUNONCE_REMOVE(pay_person(kai, 20))  -> only want this to run once
+```
 
 Each of these ledger actions requires consensus
