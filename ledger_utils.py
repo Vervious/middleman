@@ -6,13 +6,13 @@
 # (except here consensus is largely assumed since mining power is sort of...
 #  ...hey who can persuade everyone else to rewrite history)
 
-def add_to_ledger(function, arguments):
+def add_to_ledger(capabilityBlueprint, arguments):
     pass
 
 
-def remove_from_ledger(process_id):
+def remove_from_ledger(processId):
     pass
 
 
-def add_runonce_remove_from_ledger(function, arguments):
+def add_runonce_remove_from_ledger(capabilityBlueprint, arguments):
     pass
