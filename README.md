@@ -9,7 +9,7 @@ for something to be added to the ledger (the list of machine code/processes that
 all machine code must have deterministic effects on the state
 
 # state dump
-the machine also dumps its state periodically for readability. The state is, however, rederivable from the ledger and executing the machine in a deterministic way.
+the machine also dumps its state periodically for readability. The state is, however, rederivable from the ledger and executing the machine in a deterministic way. The ledger/state dump/actions remain private to the group of people using the machine. Expect this repo to be made private soon.
 
 # machine running
 right now, every minute, the machine executes the set of "currently running code" (a list of function calls). A function doesn't necessarily have to remove itself from the list.
