@@ -22,4 +22,7 @@ right now, every minute, the machine executes the set of "currently running code
   ADD_RUNONCE_REMOVE(pay_person(kai, 20))  -> only want this to run once
 ```
 
-Each of these ledger actions requires consensus
+Each of these ledger actions requires consensus.
+Another interesting side effect is that once a ledger action has been added to the ledger, it can no longer be redefined. You can remove it from the machine and add a new version, but you cannot remove the code; otherwise we can no longer reconstruct the state from history. (though it would be a cool project to integrate git)
+
+
