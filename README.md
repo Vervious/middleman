@@ -7,9 +7,9 @@ Middleman is essentially a robot that we have written together. We agree on ever
 
 To add a capability to the robot:
 1. define an capability blueprint (a python function) in `actions/`
-2. "add" the capability to the robot (with consensus). Consensus is achieved by a shared ledger (the list of machine processes that were started/stopped). For anything to be put on the ledger, all co-stake-holders must sign off on it. For now, we assume automatic sign-off.
+2. "add" the capability to the robot (with consensus). The robot is defined by the ledger (a log of machine processes that were started/stopped). For anything to be put on the ledger, all co-stake-holders must sign off on it, achieving consensus. For now, we assume automatic sign-off.
 
-In addition, we can "remove" capabilities from the robot (also by logging an entry in the ledger). At any point in time, the state of the robot can be reconstructed.
+In addition, we can "remove" capabilities from the robot (also by logging a "remove" action in the ledger). At any point in time, the state of the robot can be reconstructed from the ledger.
 
 Finally, we are building a web UI to view the state of the robot (who is taking out the trash today? how much does mic owe ben because of spotify?). This web UI can also add/remove capabilities to the robot (e.g. automated one time actions like "turn off the internet-controlled lights"
 
